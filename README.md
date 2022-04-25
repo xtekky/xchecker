@@ -8,7 +8,6 @@
 ```js
  * Usernames fully custom!!
  * No ratelimit !!
- 
 ```
 ## To come
 ```js
@@ -29,15 +28,13 @@
 
 ## Installation
 ```js
-  * run the "tikdown.bat" file
+  * run the "xshares.bat" file
 ```
 
 ##  Usage:
 ```js
-  * Choose Username or amount
-  * If username > input @ and wait till downloads are finished
-  * If amount > choose amount > paste video url(s) > wait till downloads are finished
-  * Downloads will be in the "tiktok_vids" folder
+  * Choose length, numbers, character and amount
+  * Banned/Available usernames will appear in the "banned.txt" file.
 ```
 
 ##  Credits:
