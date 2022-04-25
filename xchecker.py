@@ -128,7 +128,7 @@ class Other:
         elif input_char == b'2':
             os.system('cls' if os.name == 'nt' else 'clear')
             txt = """
-               Version: v2.0
+               Version: v2.0.1
 
              Author: Tekky#9999
 
