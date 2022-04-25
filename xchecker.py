@@ -109,7 +109,7 @@ class Other:
                 count = 5000000
 
             while x < count:
-                user = ''.join(choices(chrs, k=4))
+                user = ''.join(choices(chrs, k=num))
                 
                 if not user[-1].isdigit():
                     if not user.isdecimal():
