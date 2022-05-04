@@ -2,4 +2,4 @@
 pip install pystyle
 pip install requests
 cls
-python xshares.py
+python xchecker.py
