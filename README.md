@@ -29,7 +29,7 @@
 
 ## Installation
 ```js
-  * run the "xshares.bat" file
+  * run the "start.bat" file
 ```
 
 ##  Usage:
