@@ -52,7 +52,6 @@ class Checker:
                 'User-Agent'    : 'TikTok 13.3.0 rv:133016 (iPhone; iOS 14.6; onlp@numbers=latn) Cronet' ,
                 'x-tt-trace-id' : '00-f9a861fb243149ececad769a2f885ed7-f9a861fb243149ec-01'              ,
                 'X-Khronos'     : '1651151348'                                                           ,
-                'X-Gorgon'      : '830077702001086c95c07d5bae723fcdaa9ea05f9960faad72f8'
             }
 
         _api = f'https://api2.musical.ly/aweme/v1/search/sug/?aid=1233&version_code=13.3.0&pass-region=1&pass-route=1&language=en&app_name=musical_ly&vid={uuid.uuid4()}&app_version=13.3.0&carrier_region=TK&is_my_cn=0&channel=App%20Store&mcc_mnc=41601&device_id={uuid.uuid4()}&tz_offset=10800&account_region=&sys_region=TK&locale=en&residence=TK&screen_width=1125&uoo=1&openudid=7426eb7827be74f624392caad15e75cecb964e47&os_api=18&ac=WIFI&os_version=14.6&app_language=en&tz_name=Asia/Amman&current_region=ONLP&device_platform=iphone&build_number=133016&device_type=iPhone11,2&iid=7091638634483238662&idfa={uuid.uuid4()}&keyword={_username}&source=discover'
