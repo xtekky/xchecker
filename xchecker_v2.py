@@ -26,7 +26,8 @@ class Checker:
         self.rates    = 0
 
         os.system('cls' if os.name == 'nt' else 'clear')
-        print(f'''{self.mag}\n    ██╗  ██╗ ██████╗██╗  ██╗███████╗ ██████╗██╗  ██╗███████╗██████╗ 
+        print(f'''{self.mag}
+    ██╗  ██╗ ██████╗██╗  ██╗███████╗ ██████╗██╗  ██╗███████╗██████╗ 
     ╚██╗██╔╝██╔════╝██║  ██║██╔════╝██╔════╝██║ ██╔╝██╔════╝██╔══██╗
      ╚███╔╝ ██║     ███████║█████╗  ██║     █████╔╝ █████╗  ██████╔╝
      ██╔██╗ ██║     ██╔══██║██╔══╝  ██║     ██╔═██╗ ██╔══╝  ██╔══██╗
@@ -79,11 +80,10 @@ class Checker:
             _username_v1 = ''.join(random.choices(self.sample, k=self.num))
 
             headers = {
-                        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36",
-                        "accept-encoding": "gzip, deflate, br",
-                        "accept-language": "en-US",
-                        "content-type": "application/json"
-
+                        "user-agent"      : "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" ,
+                        "accept-encoding" : "gzip, deflate, br"                                                                                                  ,
+                        "accept-language" : "en-US"                                                                                                              ,
+                        "content-type"    : "application/json"
                         }
             response_v2 = requests.head(f"https://www.tiktok.com/@{_username_v1}", headers=headers)
 
