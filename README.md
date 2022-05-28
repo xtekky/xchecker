@@ -29,7 +29,8 @@
 
 ## Installation
 ```js
-  * run the "start.bat" file
+  * pip install requirements.xtx
+  * python xchecker_v2.py
 ```
 
 ##  Usage:
