@@ -6,7 +6,7 @@
 
 ## Features
 ```js
- * UNnlimited checks
+ * Unlimited checks
  * Usernames fully custom!!
  * No ratelimit !!
 ```
@@ -29,7 +29,7 @@
 
 ## Installation
 ```js
-  * pip install requirements.xtx
+  * pip install -r requirements.txt
   * python xchecker_v2.py
 ```
 
