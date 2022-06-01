@@ -6,7 +6,7 @@
 
 ## Features
 ```js
- * UNnlimited checks
+ * Unlimited checks
  * Usernames fully custom!!
  * No ratelimit !!
 ```
@@ -23,14 +23,23 @@
 
 ## Requirements
 ```js
+    [WINDOWS]
   * pip install requests
   * pip install pystyle
+    [UNIX/LINUX/MACOS]
+  * pip3 install requests
+  * pip3 install pystyle
 ```
 
 ## Installation
 ```js
-  * pip install requirements.xtx
+    [WINDOWS]
+  * pip install -r requirements.txt
   * python xchecker_v2.py
+    [UNIX/LINUX/MACOS]
+  * pip3 install -r requirements.txt
+  * python3 xchecker_v2.py
+    
 ```
 
 ##  Usage:
