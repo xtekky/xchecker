@@ -133,5 +133,5 @@ class Checker:
             if threading.active_count() < self.threads + 6:
                 threading.Thread(target=self.check).start()
 
-
-Checker()
+if __name__ == "__main__":
+    Checker()
