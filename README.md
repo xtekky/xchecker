@@ -1,4 +1,4 @@
-<h1 align="center">💎XC [ Xchecker v2 ]</h1>
+<h2 align="center">Filter banned users > https://github.com/xtekky/TikTok-Checker-Api</h2>
 
 <p align='center'>
   <b>Star ⭐ if you want more</b><br>
