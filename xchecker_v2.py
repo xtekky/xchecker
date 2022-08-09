@@ -20,9 +20,6 @@ class Checker:
         self.sample   = "abcdefghijklmnopqrstuvwxyz"
         self.num      = 4
         self.threads  = 10 # Quasi no ratelimit when under 10
-        self.owner    = 'tekky'
-        self.skid     = 'you'
-
         self.hits     = 0
         self.fails    = 0
         self.rates    = 0
@@ -59,16 +56,9 @@ class Checker:
             url="https://api2.musical.ly/aweme/v1/search/sug/",
             params={
                 "aid": 1233,
-                "device_id": random.randint(1000000000000000000, 9999999999999999999),
                 "keyword": _username,
                 "source": "discover",
-            },
-            headers={
-                "Host": "api2.musical.ly",
-                "Connection": "close",
-                "sdk-version": "1",
-                "User-Agent": "TikTok 13.3.0 rv:133016 (iPhone; iOS 14.6; onlp@numbers=latn) Cronet",
-            },
+            }
         )
 
         if f'"content":"{_username}"' in response.text:
